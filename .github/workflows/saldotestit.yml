@@ -1,5 +1,7 @@
 name: Maksukortin yksikkötestit
-on: push
+on:
+  push:
+  workflow_dispatch:
 jobs:
   testit:
     runs-on: ubuntu-latest
